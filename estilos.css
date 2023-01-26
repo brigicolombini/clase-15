@@ -1,0 +1,65 @@
+/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=estilos.scss.map */
+h1 {
+  color:#fff;
+} /*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=estilos.scss.map */ /*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=estilos.scss.map */ /*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=estilos.scss.map *//*# sourceMappingURL=estilos.css.map */
+.navbar{
+    background-color: rgb(0, 14, 58);
+}
+h2{
+    color: black;
+}
+.navbar-brand{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40px; ;
+    width:100 ;
+}
+.jumbotron{
+    background-image: url(./revo\ 5\ compri.jpg);
+    background-size: cover;
+    background-position:center ;
+    height: 500px;
+    color: rgb(20, 19, 19);
+    text-align: center;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-style:initial
+    
+}
+.contenedor{
+    height: 300px;
+}
+.cont-img{
+    background-image: url(./portada\ 2\ cafe\ compri.jpg);
+    background-size: cover; 
+    height: 300px;
+    color:black;
+    
+}
+h2{
+    color: black;
+}
+
+aside{
+    background-color:#fff;
+    height: 300px;
+    color: black;
+}
+aside h2{
+    text-align: center;
+    color: #fff;
+    
+}
+.row{
+    text-align: center;
+    background-color:white;
+    background-size: cover;
+    color:black;
+    margin-right: 10px;
+    margin-left: 10px;
+}
