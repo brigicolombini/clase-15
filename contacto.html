@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/696ec38f20.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -12,7 +13,7 @@
 <body><!-- Empieza barra-->
 <nav class="navbar navbar-expand-lg navbar-dark">
     <!-- Brand -->
-    <a class="navbar-brand" href="#">Rodrigo Pavet</a>
+    <a class="navbar-brand" href="#">Rodrigo Pavet 🎨</a>
 
     <!-- Toggler/collapsibe Button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -32,7 +33,7 @@
                 <a class="nav-link" href="obras.html">Obras</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Escritos</a>
+                <a class="nav-link" href="escritos.html">Escritos</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="inicio.html">Autobiografía</a>
@@ -44,28 +45,108 @@
     </div>
 </nav>
 <!-- Termina barra-->
+<h1>TALK ME, ask me a question or a request </h1>
 
-   
+<!-- Empieza carrusel-->
 
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12" style="400px">
-                        <h2>Let´s Talk.</h2>
-                        <form action="" method="post " enctype="text/plain" netlify><br><br><br>
-                            <label for="">Nombre</label>
-                            <input type="text" required placeholder="Gaspar"><br>
-                            <label for="">Apellido</label>
-                            <input type="text" required placeholder="Kerouac"><br>
-                            <label for="">E mail</label>
-                            <input type="email" required placeholder="Basquiat@gmail.com"><br>
-                            <textarea name="" id="" cols="30" rows="10"></textarea><br>
-                            <input type="submit" value="enviar"><br><br>
-                            <label for="">Fecha de nac.</label>
-                            <input type="date">
 
-                    </div>
+<div class="sec">
+    <div class="col-xs-12 col-sm-6 col-md-4"></div>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src=".//imagenes/revo 5 compri.jpg" alt="coca">
+            </div>
+            <div class="carousel-item">
+                <img src=".//imagenes/revo 2 compri.jpg" alt="cola">
+            </div>
+            <div class="carousel-item">
+                <img src=".//imagenes/fuego.jpg" alt="cola">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+
+
+
+</div>
+<!-- Termina carrusel-->
+<!-- Empieza contacto-->
+<div class="form-group">
+    <h1>En un maximo de 24hrs responderé el mail</h1>
+    <form target="_blank" action="https://formsubmit.co/rodrigokerouac@gmail.com" method="POST">
+        <div class="form-group">
+            <div class="form-row">
+                <div class="col">
+                    <label for="usr">Nombre</label>
+                    <input type="text" name="name" class="form-control" placeholder="Gaspar" required>
+                </div>
+                <div class="col">
+                    <label for="email"> E mail</label>
+                    <input type="email" name="email" class="form-control" placeholder="Tu@gmail.com" required>
                 </div>
             </div>
+        </div>
+        <div class="form-group">
+            <label for="comments">Comentario</label>
+            <textarea placeholder="Hazme una pregunta o pedido" class="form-control" name="message" rows="10" required></textarea>
+        </div>
+        <div class="form-group form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox">No soy un robot
+            </label>
+        </div>
+        <button type="submit" class="btn btn-lg btn-dark btn-block">Enviar</button>
+    </form>
+</div>
+<!-- Termina contacto-->
+
+<footer class="pie-pagina">
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <img src=".//imagenes/recital.jpg" alt="logo de Galería">
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <P>Galería y portal de venta de obras de arte de arte</P>
+        </div>
+        <div class="box">
+            <div class="red-social">
+            
+                <a href="https://instagram.com/rodrigo_pavet?igshid=YmMyMTA2M2Y=" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </div>
+    <div class="grupo-2">
+        <small> &copy; 2023 <b>Rodrigo Alí Pavet</b> - Todos los Derechos Reservados por el Artista</small>
+    </div>
+</footer>
+
+
 
 
 
